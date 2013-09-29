@@ -21,16 +21,16 @@ module.exports = {
    */
   app_files: {
     js: [ 'src/**/*.js', '!src/**/*.spec.js', '!src/assets/**/*.js' ],
-    jsunit: [ 'public/src/**/*.spec.js' ],
+    jsunit: [ 'src/**/*.spec.js' ],
     
-    coffee: [ 'public/src/**/*.coffee', '!public/src/**/*.spec.coffee' ],
-    coffeeunit: [ 'public/src/**/*.spec.coffee' ],
+    coffee: [ 'src/**/*.coffee', '!src/**/*.spec.coffee' ],
+    coffeeunit: [ 'src/**/*.spec.coffee' ],
 
     atpl: [ 'public/src/app/**/*.tpl.html' ],
     ctpl: [ 'public/src/common/**/*.tpl.html' ],
 
     html: [ 'public/src/index.html' ],
-    sass: 'public/src/sass/main.scss'
+    sass: 'src/sass/main.scss'
   },
 
   /**
@@ -38,7 +38,7 @@ module.exports = {
    */
   test_files: {
     js: [
-      'public/vendor/angular-mocks/angular-mocks.js'
+      'vendor/angular-mocks/angular-mocks.js'
     ]
   },
 
