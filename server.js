@@ -47,6 +47,7 @@ var app = express();
 require('./config/express')(app, passport);
 
 //Bootstrap routes
+
 require('./config/routes')(app, passport, auth);
 
 //Start the app by listening on <port>
