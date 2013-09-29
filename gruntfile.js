@@ -248,7 +248,7 @@ module.exports = function ( grunt ) {
         compass: {
             dist: {
                 options: {
-                    sassDir: 'src/sass',
+                    sassDir: 'public/src/sass',
                     importPath: ['<%= app_files.sass %>'],
                     cssDir: '<%= build_dir %>/assets/styles',
                     environment: 'production',
